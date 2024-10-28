@@ -1,0 +1,35 @@
+{
+  "customers": [
+    {
+      "id": "aaae",
+      "name": "Gio O",
+      "product": "Multigrain Bread",
+      "email": "gio@gmail.com",
+      "phoneNumber": "07685625262",
+      "address": "Almond Apt"
+    },
+    {
+      "id": "1077",
+      "name": "Wilder",
+      "product": "Sourdough Bread",
+      "email": "jentrixw@gmail.com",
+      "phoneNumber": "0745678998",
+      "address": "Magorofani B8"
+    }
+  ],
+  "products": [
+    {
+      "id": "1fc2",
+      "name": "Almond Biscotti",
+      "description": "Crispy, nutty biscotti perfect for dipping.",
+      "price": "Ksh 200.00"
+    },
+    {
+      "id": "3c71",
+      "name": "Butter Croissant",
+      "description": "Flaky and buttery croissants, made with high-quality butter for a rich flavor.",
+      "price": "Ksh 300.00"
+    }
+  ],
+  "orders": []
+}

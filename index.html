@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Artisan Oven</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Customers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Register</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!--forms-->
+<form class="container" mt-5>
+    <h1 class="text-center">Customer Information Form</h1>
+
+    <div class="mb-3">
+        <label for="name" class="form-label">Fullname</label>
+        <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+    </div>
+            <div class="mb-3">
+                <label for="product" class="form-label">Pastries Order</label>
+                <select class="form-control" id="product" name="product" required>
+                    <option value="" disabled selected>Select a product</option>
+                    <option value="Sourdough Bread">Sourdough Bread</option>
+                    <option value="Butter Croissant">Butter Croissant</option>
+                    <option value="Multigrain Bread">Multigrain Bread</option>
+                    <option value="Chocolate Éclair">Chocolate Éclair</option>
+                    <option value="Lemon Tart">Lemon Tart</option>
+                </select>
+            </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+    </div>
+
+    <div class="mb-3">
+        <label for="phoneNumber" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" value="" required>
+    </div>
+    <div class="mb-3">
+        <label for="address" class="form-label">Address</label>
+        <input type="text" class="form-control" id="address" name="address" value="" required>
+    </div>
+
+ 
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+
+  <!--tables-->
+
+  <table class="table container mt-5">
+    <thead class="table-danger">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Fullname</th>
+        <th scope="col">Pastries Order</th>
+        <th scope="col">Email Address</th>
+        <th scope="col">Phone Number</th>
+        <th scope="col">Address</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody id="body">
+    
+
+      
+    
+  
+</head>
+<body>
+    
+</body>
+</html>
